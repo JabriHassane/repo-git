@@ -33,4 +33,19 @@ So we use the line commande:
 after that we push our modification into github using:
 >git push
 
+## SSH keys:
+https://docs.github.com/en/github/authenticating-to-github/checking-for-existing-ssh-keys
+Using the SSH protocol, you can connect and authenticate to remote servers and services. With SSH keys, you can connect to GitHub without supplying your username and personal access token at each visit.
+
+## Push an existen project to github
+
+>git init 
+>git status --
+>git add .
+>git status --
+creat a new repo in github and copy the link to the repo
+>git remote add origin "passt thr link"
+>git remote -v 
+>git push -u origin master
+
 
