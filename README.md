@@ -48,4 +48,25 @@ creat a new repo in github and copy the link to the repo
 >git remote -v 
 >git push -u origin master
 
+## Git branching:
+A branch in Git is simply a lightweight movable pointer to one of these commits. ... As you start making commits, you're given a master branch that points to the last commit you made. Every time you commit, the master branch pointer moves forward automatically.
+En effet la commande git branch n’a fait que créer une nouvelle branche — elle n’a pas fait basculer la copie de travail vers cette branche.
+
+show the branche in my project
+>git branch
+creat a new branche
+>git checkout -b feature-name
+change the branche
+>git chekout "name branche"
+
+## mergin branche
+Merging is a common practice for developers using version control systems. Whether branches are created for testing, bug fixes, or other reasons, merging commits changes to another location. To be more specific, merging takes the contents of a source branch and integrates them with a target branch.
+Merging is Git's way of putting a forked history back together again. The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch. Note that all of the commands presented below merge into the current branch.
+>git merge master
+
+## Undo Git
+>git reset
+>git reset HEAD~1
+>git reset --hard "hash key"
+
 
